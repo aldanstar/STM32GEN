@@ -1,4 +1,5 @@
-
+#ifndef SENDLER_H
+#define SENDLER_H
 
 //#include <cstring>
 //#include <cstdlib>
@@ -35,7 +36,6 @@ class sendler {
 public:
     sendler(UART_HandleTypeDef *huart);
     void begin(uint32_t baudrate, uint32_t config, uint8_t device_addr);
-    void separator();
     void send_array(uint8_t arr[], uint16_t size);
     void send_array(uint16_t arr[], uint16_t size);
     void send_array(uint32_t arr[], uint16_t size);
@@ -64,3 +64,4 @@ private:
 };
 
 extern sendler Sendler; // Объявление глобального экземпляра
+#endif

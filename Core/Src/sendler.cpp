@@ -60,10 +60,6 @@ void sendler::registerCallback(DataReceivedCallback callback) {
     dataReceivedCallback = callback;
 }
 
-void sendler::separator() {
-    uint8_t separatorByte = 0x0A;
-    HAL_UART_Transmit(huart, &separatorByte, 1, HAL_MAX_DELAY);
-}
 
 uint16_t sendler::calc_crc16(const uint8_t *array, uint16_t len, uint16_t crc) {
     uint8_t temp;
