@@ -4,13 +4,8 @@ stm32gen/command_handler.o: ..\Core\Src\command_handler.cpp \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__config \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
   ..\Core\Inc\sendler.h \
-  D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstring \
-  D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__assert \
-  D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__verbose_abort \
-  D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__availability \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\string.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdlib \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdlib.h \
   D:\Program\ Files\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   ..\Core\Inc\main.h ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \

@@ -1,12 +1,11 @@
-#ifndef SENDLER_H
-#define SENDLER_H
-
-#include <cstring>
-#include <cstdlib>
 
 
-//#include <stdlib.h>
-//#include <string.h>
+//#include <cstring>
+//#include <cstdlib>
+
+
+#include <string.h>  // Для memcpy, memset и других функций C
+#include <stdlib.h>  // Для malloc/free
 
 #include "main.h" // Включает stm32f4xx_hal.h и другие необходимые заголовочные файлы
 #include <stdint.h>
@@ -65,4 +64,3 @@ private:
 };
 
 extern sendler Sendler; // Объявление глобального экземпляра
-#endif
